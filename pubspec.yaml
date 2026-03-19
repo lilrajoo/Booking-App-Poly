@@ -1,0 +1,58 @@
+name: mini_proj_s10243484c
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0 # Add this line
+  flutter_login: ^5.0.0
+  google_maps_flutter: ^2.6.1
+  google_maps_flutter_android: ^2.8.0
+  google_maps_flutter_ios:
+  one_clock: ^2.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/np_logo.png
+    - images/badminton.png
+    - images/squash.png
+    - images/bounce.png
+    - images/MA.png
+    - images/pool.png
+    - images/Library.png
+    - images/study_room.png
+    - images/meeting_room.png
+    - images/recording_room.png
+
+
+
+
